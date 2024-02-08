@@ -1,0 +1,28 @@
+.cart-body{
+  position: relative;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  max-width: 75vw;
+  border-radius: 40px;
+  padding: 4em 2em 4em 2em;
+}
+
+.close-button{
+  position: absolute;
+  padding: .2em;
+  top: 20px;
+  right: 35px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 2px solid black;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 600px) {
+  .cart-body {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,25 @@
+.cart-description{
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 0;
+  flex-direction: column;
+
+  .cart-img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  p{
+    margin-top: 20px;
+    color: rgba(103, 89, 120, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  
+}
+
